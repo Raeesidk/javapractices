@@ -15,3 +15,10 @@ public class ThisKeyword_Demo
 	
 	}
 }
+
+class main 
+{
+
+	
+	
+}
