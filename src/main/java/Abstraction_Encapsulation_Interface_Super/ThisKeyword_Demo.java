@@ -1,11 +1,9 @@
 package Abstraction_Encapsulation_Interface_Super;
-//________________________________________________________________________________________________________
 public class ThisKeyword_Demo 
 {
 	int a=10;
 	void add (int a)
 	{
-	  this.a=a;
      System. out.println ("Method a Value: " + a);
 	}
 	public static void main (String [] args) 
