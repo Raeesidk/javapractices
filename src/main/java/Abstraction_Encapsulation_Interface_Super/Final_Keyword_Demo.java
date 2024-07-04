@@ -7,7 +7,7 @@ final class pop //Declare a class as final to prevent it from being extended (in
         System.out.println("I am Top class");
     }
 }
-public class Final_Keyword_Demo  // restricting class inheritance because of final method
+public class Final_Keyword_Demo  // restricting class inheritance because of final parent Class
 {
   final   int a=10203;  //When a variable is declared as final, its value cannot be changed once initialized. It’s often used for constants. Or Declare a variable as final to make it constant
     void display()

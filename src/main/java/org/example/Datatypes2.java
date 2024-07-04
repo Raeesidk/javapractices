@@ -5,11 +5,11 @@ public class Datatypes2
     public static void main (String [] args)
     {
 
-        byte  b = -128;
+        byte  b = -128; //the range of byte is -128 to 127
         System.out.println("byte data type value" +b);
         //
 
-        short s = -32768; //
+        short s = -32768; //range
         System.out.println("short data type value" +s);
 
         int i = -1456789300;// Default value of int is 0
