@@ -15,16 +15,17 @@ public class List_Arraylist_Demo
 4. It's underline data structure is Growable and Resizable     &    5. It's not Synchronized.The elements stored in the ArrayList class can be randomly accessed.*/
 {
     public static void main (String [] args) {
-        List l =new ArrayList();
-        l.add (10);
-        l.add(10.2);
-        l.add ("Jyoti");
-        l.add (865565);
-        l.add (20);
-        l.add (true);
-        l.add (20);
-        l.add (true);
-      System. out.println (l.indexOf(10.2)) ;
+        ArrayList al =new ArrayList();
+        al.add (10);
+        al.add(10.2);
+        al.add ("Jyoti");
+        al.add (865565);
+        al.add (20);
+        al.add (true);
+        al.add (20);
+        al.add (true);
+      System. out.println (al) ;
+        System.out.println(al.indexOf(865565));
 
     }
 }
