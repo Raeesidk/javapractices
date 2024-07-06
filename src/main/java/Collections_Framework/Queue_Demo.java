@@ -7,7 +7,7 @@ import java.util.Queue;
  It follows the first-in, first-out (FIFO) principle, meaning that elements are recover in the order they were added to the queue.*/
 public class Queue_Demo
 {
-    /*Key methods:
+    /*Key methods:  It allows "Null" values
 add(element): Adds an element to the rear of the queue. Throws an exception if the queue is full.
 offer(element): Adds an element to the rear of the queue. Returns false if the queue is full.
 remove(): Removes and returns the element at the front of the queue. Throws an exception if the queue is empty.

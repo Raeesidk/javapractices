@@ -8,7 +8,8 @@ import java.util.PriorityQueue;
  The highest-priority elements appear at the front of the queue.*/
 public class PriorityQueue_Demo
 { /*Smallest data to largest data
-Largest to smallest data removal can be done by using--->"Comparator.reverseOrder()" type in Constructor */
+Largest to smallest data removal can be done by using--->"Comparator.reverseOrder()" type in Constructor
+ It Does not allow "NULL" Values*/
     public static void main(String[] args)
     {
         PriorityQueue pq = new PriorityQueue(Comparator.reverseOrder());
